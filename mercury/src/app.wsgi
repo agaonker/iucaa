@@ -1,6 +1,6 @@
 import sys, os, bottle
 
-sys.path = ['/var/www/mercury_bottle/'] + sys.path
+sys.path = ['/var/www/mercury/'] + sys.path
 
 # Change working directory so relative paths (and template lookup) work again
 os.chdir(os.path.dirname(__file__))
